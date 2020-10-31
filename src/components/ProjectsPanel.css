@@ -1,0 +1,64 @@
+.projectsPanel {
+  width: 70vw;
+  margin-left: 150px;
+  margin-top: 80px;
+  height: 65vh;
+  font-family: var(--fontTwo);
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  grid-template-rows: repeat(2, 200px);
+  grid-template-areas: 
+    "icm icd hnc"
+    "icm nc ."
+  ;
+  align-items: center;
+  gap: 20px;
+  overflow-x: scroll; 
+  padding: 0 20px;
+}
+
+/* width */
+.projectsPanel::-webkit-scrollbar {
+  height: 5px;
+}
+
+/* Track */
+.projectsPanel::-webkit-scrollbar-track {
+  background-color: grey;
+  width: 3px;
+}
+
+/* Handle */
+.projectsPanel::-webkit-scrollbar-thumb {
+  background: var(--green);
+  width: 1px
+}
+
+/* Handle on hover */
+.projectsPanel::-webkit-scrollbar-thumb:hover {
+  background: var(--blue);
+}
+
+
+
+
+@media only screen and (max-width: 1350px) {
+  .projectsPanel {
+    margin-top: 30px;
+  }
+
+}
+
+@media only screen and (max-width: 1024px) {
+  .projectsPanel {
+    display: flex;
+    width: 80vw;
+    margin: 30px auto;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .projectsPanel::-webkit-scrollbar {
+    height: 5px;
+  }
+
+}

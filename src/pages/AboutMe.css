@@ -1,0 +1,124 @@
+.about {
+  padding-top: 60px;
+}
+
+
+.hero {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+/* lines */
+.aboutMe__line {
+  width: 80px;
+  height: 5px;
+  background-color: var(--green);
+}
+.footer__line {
+  width: 100px;
+  height: 3px;
+  background-color: var(--green);
+}
+.hero__line {
+  position: absolute;
+  width: 3px;
+  height: 250px;
+  left: 0;
+  background-color: var(--blue);
+}
+
+.heroInfo {
+  flex: 1;
+  text-align: left;
+  font-size: 1.5em;
+  font-weight: 400;
+  padding: 30px;
+  margin-left: 40px;
+  font-family: var(--fontTwo);
+}
+
+.heroImg {
+  flex: 1;
+  height: 450px;
+  margin-right: 50px
+}
+
+.imgContainer {
+  max-width: 100%;
+  width: 350px;
+  height: 400px;
+  position: relative;
+  margin: auto;
+}
+
+.greenSquare {
+  width: 300px;
+  height: 350px;
+  border: 3px solid var(--green);
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+}
+
+.blueSquare {
+  width: 300px;
+  height: 350px;
+  border: 3px solid var(--blue);
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}
+
+.icons {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  color: #2E87F6;
+  cursor: pointer;
+}
+
+.github {
+  color: black !important;
+}
+.fb {
+  color: #2B8EF2
+}
+.tt {
+  color: #1DA1F2
+}
+.li {
+  color: #0e76a8
+}
+/* hero info */
+.hero__title, .hero__location {
+  font-size: 16px;
+  color: grey;
+}
+
+/* 1024 vw */
+@media only screen and (max-width: 1024px) {
+  .heroImg {
+    display: none;
+  }
+  .heroInfo {
+    margin-left: 0;
+    padding: 0;
+    /* text-align: center; */
+  }
+  .hero__line {
+    display: none;
+  }
+  .hero {
+    margin-top: 0;
+  }
+}

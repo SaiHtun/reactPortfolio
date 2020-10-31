@@ -1,0 +1,52 @@
+.nav__selected {
+  font-size: 1.2em;
+  color: var(--green);
+  opacity: 0,8;
+  font-family: var(--fontTwo);
+  font-weight: bold;
+} 
+
+.nav__unSelected {
+  font-size: 14px;
+  color: grey;
+  opacity: 0,8;
+}
+
+.navigator {
+  width: 100px;
+  height: 250px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  right: 8%;
+  bottom: 35%;
+  z-index: 11;
+}
+
+/* 1024 vw */
+@media only screen and (max-width: 1024px) {
+  .heroImg {
+    display: none;
+  }
+  .heroInfo {
+    margin-left: 0;
+  }
+  
+  
+}
+
+@media only screen and (max-width: 1350px) {
+  .navigator {
+    bottom: 60px;
+    right: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    height: 50px;
+  }
+}

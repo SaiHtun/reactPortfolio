@@ -1,0 +1,40 @@
+.projectMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.projectName {
+  font-weight: bold;
+}
+
+.projectLinks {
+  display: flex;
+  align-items: center;
+}
+
+.projectDescriptions {
+  text-align: left;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.projectDescriptions div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.descriptions {
+  margin-top: 15px;
+  color: white;
+}
+
+.projectImg {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,42 @@
+.downloadContainer {
+  width : 140px;
+  height: 40px;
+  line-height: 50px;
+  background-color: var(--grey);
+  position: relative;
+  text-align: left;
+  font-size: 25px;
+  color: white;
+  margin: auto;
+  font-family: var(--fontTwo);
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.slider {
+  width : 150px;
+  height: 100%;
+  line-height: 30px;
+  background-color: var(--green);
+  text-align: center;
+  padding: 5px 10px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-size: 15px;
+  font-weight: bold !important;
+}
+
+@media only screen and (max-width: 800px) {
+  /* .downloadContainer {
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+  };
+  .slider {
+    width: 110px;
+    height: 30px;
+    font-size: 16px !important;
+  } */
+}
