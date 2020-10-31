@@ -18,11 +18,11 @@ function ProjectCard( {project, open, name} ) {
 
 
   const projectCard = {
-    minWidth: '250px',
+    minWidth: '280px',
     height: `${project.view === 'mobile'? '330px': '200px'}`,
     backgroundImage: `${project.img}`,
     borderRadius: "5px",
-    marginRight: "10px",
+    marginRight: "30px",
     textAlign: "center",
     gridArea: `${ project.area }`,
     boxShadow: "0 0.5em 1em -0.125em rgba(10,10,10,.30), 0 0 0 1px rgba(10,10,10,.02)",

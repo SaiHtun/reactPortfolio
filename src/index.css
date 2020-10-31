@@ -50,13 +50,17 @@ a {
 
 .container {
   width: 80vw;
-  margin: auto;
+  margin: 0 auto;
   position: relative;
 }
 
 /* 1024 vw */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   .container {
     width: 90vw;
   }
+  .App {
+    height: 90vh;
+  }
 }
+

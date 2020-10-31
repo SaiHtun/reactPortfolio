@@ -80,6 +80,10 @@
   align-items: flex-end;
 }
 
+.icons a {
+  color: white;
+}
+
 .icon {
   width: 30px;
   height: 30px;
@@ -120,5 +124,11 @@
   }
   .hero {
     margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .hero {
+    height: 50vh
   }
 }

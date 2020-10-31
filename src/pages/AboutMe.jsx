@@ -144,7 +144,7 @@ function AboutMe( ) {
         </div>
         <main className="heroInfo">
           <motion.p className="hero__title"
-          variants={ textVarients }>Ohaiyo ~</motion.p>
+          variants={ textVarients }>Ohaiyo ~ ✌🏼</motion.p>
           <motion.p className="hero__des"
            variants={textVarients}
            >My name is Sai, a designer 
@@ -154,7 +154,8 @@ function AboutMe( ) {
           allow me to turn your wishes into 
           reality.</motion.p>
           <motion.p className="hero__location"
-           variants={ textVarients }>This awesome developer is Located in SF Bay Area</motion.p>
+           variants={ textVarients }>This awesome developer is Located in SF Bay Area. 
+           <span role="img" aria-labelledby="goden gate bridge"> 🌁</span> </motion.p>
           <Download download={ {openDownload, setOpenDownload} }/>
         </main>
         <main className="heroImg">
@@ -177,10 +178,18 @@ function AboutMe( ) {
      <footer className="aboutMe__footer">
         <motion.div className="icons"
         variants={textVarients}>
-          <DiGithubBadge className="icon github" />
-          <AiFillFacebook className="icon fb"/>
-          <AiFillLinkedin className="icon li" />
-          <AiFillTwitterSquare className="icon tt" />
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+            <DiGithubBadge className="icon github" />
+          </a>
+          <a href="https://www.facebook.com/saihtun1430/" target="_blank" rel="noopener noreferrer">
+            <AiFillFacebook className="icon fb"/>
+          </a>
+          <a href="https://www.linkedin.com/in/sai-htun-b20a0611a/" target="_blank" rel="noopener noreferrer">
+            <AiFillLinkedin className="icon li" />
+          </a>
+          <a href="https://twitter.com/SaiHtun19428970" target="_blank" rel="noopener noreferrer">
+            <AiFillTwitterSquare className="icon tt" />
+          </a>
           <div style={{ width: '100px', overflowX: 'hidden'}}>
             <motion.div className="footer__line"
             variants={ horiLineVarients }></motion.div>

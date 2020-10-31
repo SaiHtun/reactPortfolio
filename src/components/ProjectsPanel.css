@@ -1,18 +1,11 @@
 .projectsPanel {
   width: 70vw;
-  margin-left: 150px;
-  margin-top: 80px;
-  height: 65vh;
+  margin-right: 100px;
+  margin-top: 0px !important;
+  height: 80vh;
   font-family: var(--fontTwo);
-  display: grid;
-  grid-template-columns: repeat(4, 250px);
-  grid-template-rows: repeat(2, 200px);
-  grid-template-areas: 
-    "icm icd hnc"
-    "icm nc ."
-  ;
+  display: flex;
   align-items: center;
-  gap: 20px;
   overflow-x: scroll; 
   padding: 0 20px;
 }
@@ -45,20 +38,26 @@
 @media only screen and (max-width: 1350px) {
   .projectsPanel {
     margin-top: 30px;
+    margin-right: 50px;
   }
 
 }
 
 @media only screen and (max-width: 1024px) {
   .projectsPanel {
-    display: flex;
     width: 80vw;
-    margin: 30px auto;
-    align-items: center;
+    margin-right: 0px;
+    /* align-items: center; */
     margin-top: 20px;
   }
   .projectsPanel::-webkit-scrollbar {
     height: 5px;
   }
 
+}
+
+@media only screen and (max-width: 500px) {
+  .projectsPanel {
+    height: 60vh;
+  }
 }
