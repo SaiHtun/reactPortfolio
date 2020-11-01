@@ -38,4 +38,10 @@
     width: 40px;
     height: 40px;
   }
+  .skills__icons {
+    height: 150px;
+  }
+  .skills {
+    padding-top: 40px;
+  }
 }

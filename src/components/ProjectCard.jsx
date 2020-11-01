@@ -63,6 +63,7 @@ function ProjectCard( {project, open, name} ) {
 
   return (
     <motion.div style={ projectCard }
+      className="projectCard"
       variants={ projectVarients }
     >
       <img src={ project.img } alt="gg" className="projectImg"/>

@@ -18,3 +18,9 @@
     font-size: 1.5em;
   }
 }
+/* 500 vw */
+@media only screen and (max-width: 500px) {
+  .landing {
+    height: 80vh;
+  }
+}
