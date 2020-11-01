@@ -7,13 +7,6 @@ import { VscBeaker } from "react-icons/vsc";
 import { motion } from 'framer-motion';
 
 
-// const skills = [ 
-//   { AiOutlineCloud : [ 'AWS', 'Netlify', 'Heroku', 'Vercel', 'GCP ( Firebase )'] },
-//   { "</>" : [ 'HTML/CSS', 'JavaScript', 'React/Vue', 'Any CSS utility library'] },
-//   { "{ }" : [ 'Node.Js', 'Express' ]},
-//   { VscBeaker : [ 'Jest', 'Supertest', 'Mocha', 'Chai']},
-//   { FaDatabase : [ 'SQL/NoSQL', 'MySQL/Postgresql', 'MongoDB/FirebaseDB']}
-// ]
 const cloud = [ 'AWS', 'Netlify', 'Heroku', 'Vercel', 'GCP ( Firebase )'];
 const web = [ 'HTML/CSS', 'JavaScript', 'React/Vue', 'Any CSS utility library'];
 const backend = [ 'Node.Js', 'Express' ]
@@ -47,9 +40,6 @@ function SkillsPanel() {
   return (
     <motion.div className="skillsPanel"
     variants={ panelVarients }
-    // initial="before"
-    // animate="after"
-    // exit="exit"
     >
       {/* Cloud skills */}
       <SkillCard>

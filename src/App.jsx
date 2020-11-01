@@ -8,7 +8,7 @@ import Landing from './pages/Landing';
 import Error from './pages/Error';
 import Navigaotr from './components/Navigator';
 import Projects from './pages/Projects';
-
+import Showcase from './pages/Showcase';
 
 function App() {
   const location = useLocation();
@@ -35,6 +35,9 @@ function App() {
         </Route>
         <Route path="/projects">
           <Projects />
+        </Route>
+        <Route path="/showcase">
+          <Showcase />
         </Route>
         <Route path="*">
           <Error />

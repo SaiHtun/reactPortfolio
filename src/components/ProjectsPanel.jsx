@@ -8,7 +8,7 @@ import hnDesktop from '../assets/hn-desktop.png';
 import { motion } from 'framer-motion';
 
 const projects = [
-  { name: 'Outstagramm Mobile',
+  { name: 'Outstagramm M',
     fe: 'React',
     be: 'Firebase',
     img: `${icMobile}`,
@@ -20,7 +20,7 @@ const projects = [
     web: 'https://outstagramm-2bbb5.web.app/signin',
     git: 'https://github.com/SaiHtun/outstagramm'
   },
-  { name: 'Outstagramm Desktop',
+  { name: 'Outstagramm D',
     fe: 'React',
     be: 'Firebase',
     area: 'icd',
