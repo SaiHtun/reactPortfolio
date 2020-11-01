@@ -1,6 +1,5 @@
 import React from 'react';
 import './ProjectCard.css';
-import { Link } from 'react-router-dom';
 import { DiGithubBadge } from 'react-icons/di';
 import { FaGlobe } from 'react-icons/fa';
 import { motion } from 'framer-motion';
@@ -18,8 +17,8 @@ function ProjectCard( {project, open, name} ) {
 
 
   const projectCard = {
-    minWidth: '280px',
-    height: `${project.view === 'mobile'? '330px': '200px'}`,
+    minWidth: '290px',
+    height: `${project.view === 'mobile'? '330px': '230px'}`,
     backgroundImage: `${project.img}`,
     borderRadius: "5px",
     marginRight: "30px",
@@ -37,7 +36,7 @@ function ProjectCard( {project, open, name} ) {
     backgroundColor: `var(--grey)`,
     color: 'white',
     borderRadius: '10px 10px 0 0 ',
-    zIndex: '10'
+    zIndex: '10',
   }
   
 
@@ -60,6 +59,8 @@ function ProjectCard( {project, open, name} ) {
     }
   }
 
+ 
+
   return (
     <motion.div style={ projectCard }
       variants={ projectVarients }
@@ -68,8 +69,7 @@ function ProjectCard( {project, open, name} ) {
       <motion.div style={ projectDetails }
       className="projectDetails"
       onClick={() => { handleOpen()}}
-      initial={{y: project.view === 'mobile'? 290: 160 }}
-      animate={ openProject && projectName.name === project.name ? {y: 20, transition: { type: 'tween', duration: 0.5 } } : { y: project.view === 'mobile'? 290: 160 }}
+      animate={ openProject && projectName.name === project.name ? {y: 20, transition: { type: 'tween', duration: 0.5 } } : { y: project.view === 'mobile'? 290: 190 }}
       whileHover={{ y: 20, transition: { type: 'tween', duration: 0.5 }}}
       >
         <div className="projectMenu">

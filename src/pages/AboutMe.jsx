@@ -144,18 +144,18 @@ function AboutMe( ) {
         </div>
         <main className="heroInfo">
           <motion.p className="hero__title"
-          variants={ textVarients }>Ohaiyo ~ ✌🏼</motion.p>
+          variants={ textVarients }>Ohaiyo ~ <span role="img" aria-labelledby="a cute puppy">✌🏼</span></motion.p>
           <motion.p className="hero__des"
            variants={textVarients}
            >My name is Sai, a designer 
-          who can code, expertise in
-          modern Javascript Development stacks,
-          critical thinker, Music and <span role="img" aria-labelledby="a cute puppy">🐶 </span> lover, 
-          allow me to turn your wishes into 
-          reality.</motion.p>
-          <motion.p className="hero__location"
-           variants={ textVarients }>This awesome developer is Located in SF Bay Area. 
-           <span role="img" aria-labelledby="goden gate bridge"> 🌁</span> </motion.p>
+          who can code, expertised in
+          modern Javascript Development Stacks, experienced in network and system administration,
+          critical thinker, music and <span role="img" aria-labelledby="a cute puppy">🐶 </span> lover, <span
+           className="hero__objective"
+           variants={ textVarients }>you only need to tell me about your business objective, the context of product use and goals, 
+           then i can turn your wishes into reality in the most creative ways!</span>
+           <span role="img" aria-labelledby="goden gate bridge" style={{ marginLeft: '5px'}}>🧛🏼‍♂️</span> 
+          </motion.p>
           <Download download={ {openDownload, setOpenDownload} }/>
         </main>
         <main className="heroImg">

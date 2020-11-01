@@ -5,3 +5,37 @@
   flex-direction: column;
   align-items: center;
 }
+
+.skills__icons {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 5px;
+  width: 50px;
+  height: 50px;
+}
+
+.skills__icons .js {
+  color: #F0D91B;
+}
+.skills__icons .react {
+  color: var(--blue);
+}
+.skills__icons .vue {
+  color: var(--green);
+}
+.skills__icons .node {
+  color: green;
+}
+
+@media only screen and (max-width: 500px) {
+  .icon {
+    width: 40px;
+    height: 40px;
+  }
+}

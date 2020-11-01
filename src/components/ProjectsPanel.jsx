@@ -68,7 +68,7 @@ const panelVarients = {
     opacity: 1,
     transition: {
       type: 'tween',
-      duration: 1.5,
+      duration: 1.3,
       staggerChildren: 0.3
     }
   },
@@ -77,7 +77,7 @@ const panelVarients = {
     opacity: 0,
     transition: {
       type: 'tween',
-      duration: 1.5,
+      duration: 1.3,
       staggerChildren: 0.3
     }
   }

@@ -104,10 +104,20 @@
   color: #0e76a8
 }
 /* hero info */
-.hero__title, .hero__location {
+.hero__title, .hero__objective {
   font-size: 16px;
   color: grey;
 }
+
+.hero__objective {
+  font-style: italic;  
+}
+
+.hero__des {
+  font-size: 18px;
+}
+
+
 
 /* 1024 vw */
 @media only screen and (max-width: 1024px) {
@@ -129,6 +139,10 @@
 
 @media only screen and (max-width: 500px) {
   .hero {
-    height: 50vh
+    height: 50vh;
+    margin-top: 30px;
+  }
+  .icons {
+    width: 230px;
   }
 }
