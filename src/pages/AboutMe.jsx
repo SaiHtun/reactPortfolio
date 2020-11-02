@@ -176,7 +176,7 @@ function AboutMe( ) {
         </main>
      </section>
      <footer className="aboutMe__footer">
-        <motion.div className="icons"
+        <motion.div className="about__icons"
         variants={textVarients}>
           <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
             <DiGithubBadge className="icon github" />

@@ -18,7 +18,7 @@ function ProjectCard( {project, open, name} ) {
 
   const projectCard = {
     minWidth: '290px',
-    height: `${project.view === 'mobile'? '330px': '230px'}`,
+    height: `${project.view === 'mobile'? '340px': '230px'}`,
     backgroundImage: `${project.img}`,
     borderRadius: "5px",
     marginRight: "30px",
@@ -70,7 +70,7 @@ function ProjectCard( {project, open, name} ) {
       <motion.div style={ projectDetails }
       className="projectDetails"
       onClick={() => { handleOpen()}}
-      animate={ openProject && projectName.name === project.name ? {y: 20, transition: { type: 'tween', duration: 0.5 } } : { y: project.view === 'mobile'? 290: 190 }}
+      animate={ openProject && projectName.name === project.name ? {y: 20, transition: { type: 'tween', duration: 0.5 } } : { y: project.view === 'mobile'? 300: 190 }}
       whileHover={{ y: 20, transition: { type: 'tween', duration: 0.5 }}}
       >
         <div className="projectMenu">

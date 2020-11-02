@@ -9,6 +9,7 @@ import Error from './pages/Error';
 import Navigaotr from './components/Navigator';
 import Projects from './pages/Projects';
 import Showcase from './pages/Showcase';
+import Contact from './pages/Contact';
 
 function App() {
   const location = useLocation();
@@ -39,8 +40,10 @@ function App() {
         <Route path="/showcase">
           <Showcase />
         </Route>
+        <Route path="/contact">
+          <Contact />
+        </Route>
         <Route path="*">
-          <Error />
         </Route>
       </Switch>
      </AnimatePresence>

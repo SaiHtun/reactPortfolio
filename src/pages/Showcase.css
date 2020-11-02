@@ -5,7 +5,7 @@
 .showcase__videos {
   width: 70vw;
   margin:0 100px;
-  height: 80vh;
+  height: 70vh;
   font-family: var(--fontTwo);
   display: flex;
   align-items: center;
@@ -36,6 +36,7 @@
 @media only screen and (max-width: 1000px) {
   .showcase__videos {
     justify-content: left;
+    height: 60vh;
   }
     /* Track */
   .showcase__videos::-webkit-scrollbar-track {
@@ -53,7 +54,6 @@
 @media only screen and (max-width: 500px) {
   .showcase__videos {
     width: 90vw;
-    height: 60vh;
     margin: 0 auto;
     justify-content: left;
   }
