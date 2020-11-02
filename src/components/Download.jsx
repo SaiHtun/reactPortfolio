@@ -1,6 +1,7 @@
 import React from 'react';
 import { AiOutlineDownload } from 'react-icons/ai';
 import { motion } from 'framer-motion';
+import mycv from '../assets/sai.pdf';
 //  css
 import './Download.css';
 
@@ -30,7 +31,9 @@ function Download( {download} ) {
     initial={{ y: 20, opacity: 0}}
     animate={{ y: 0, opacity: 1, transition: { type: 'tween', duration: 1.5}}}
     exit={{ y: -20, opacity: 0, transition: { type: 'tween', duration: 1.5}}}>
-      <AiOutlineDownload style={{ margin: '6px 10px', fontWeight: 'bold'}}/>
+      <a href={mycv} download="sai resume" style={{ color: 'white'}}>
+        <AiOutlineDownload style={{ margin: '6px 10px', fontWeight: 'bold'}}/>
+      </a>
       <motion.div className="slider" variants={ sliderVariants } animate={ openDownload? 'animate': 'null'}>Download CV</motion.div>
     </motion.div>
   )

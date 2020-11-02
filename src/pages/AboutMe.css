@@ -73,18 +73,18 @@
   z-index: -1;
 }
 
-.icons {
+.about__icons {
   width: 300px;
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
 }
 
-.icons a {
+.about__icons a {
   color: white;
 }
 
-.icons .icon {
+.about__icons .icon {
   width: 30px;
   height: 30px;
   color: #2E87F6;

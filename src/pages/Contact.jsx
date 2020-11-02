@@ -69,8 +69,7 @@ function Contact() {
             <img src={email} alt="email"/>
           </a>
           <h3>saihtun1430@gmail.com</h3>
-          <p>This awesome developer is located at SF Bay Area, CA, USA.</p>
-          <small>email me maybe ! <span role='img' aria-labelledby="astronaut">👨🏽‍🚀</span></small>
+          <p style={{ color: 'grey' }}>This awesome developer is located at SF Bay Area, CA, USA.</p>
           <div className="contact__icons">
             <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
               <DiGithubBadge className="icon github" />

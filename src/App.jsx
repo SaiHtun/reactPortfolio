@@ -44,6 +44,7 @@ function App() {
           <Contact />
         </Route>
         <Route path="*">
+          <Error />
         </Route>
       </Switch>
      </AnimatePresence>

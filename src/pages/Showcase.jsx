@@ -45,28 +45,6 @@ const showcaseVarients = {
   }
 }
 
-const videoVarients = {
-  before: {
-    x: 100,
-    opacity: 0
-  },
-  after: {
-    x: 0,
-    opacity: 1,
-    transition: {
-      type: 'tween',
-      duration: 1.3,
-    }
-  },
-  exit: {
-    x: -100,
-    opacity: 0,
-    transition: {
-      type: 'tween',
-      duration: 1.3
-    }
-  }
-}
 
 function Showcase() {
   return (
